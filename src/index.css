@@ -1,0 +1,348 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.contact-first-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(202, 248, 206);
+  margin-bottom: 20px;
+}
+
+.contact-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 300px;
+}
+
+.contact-first p {
+  text-align: justify;
+}
+
+.contact-sec-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.contact-sec-left-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  /* background-color: aqua; */
+}
+
+.contact-sec-left-sec {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: rgb(145, 151, 240); */
+}
+
+.contact-sec-left-first input,
+.contact-sec-left-sec input,
+.contact-sec-righ-first form input{
+  height: 25px;
+  width: 200px;
+  border-radius: 30px;
+  border: transparent;
+  background-color: rgb(202, 248, 206);
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.contact-sec-left-sec input {
+  width: 417px;
+  margin-top: 10px;
+}
+
+.contact-sec-left-sec textarea {
+  border: transparent;
+  background-color: rgb(202, 248, 206);
+  padding: 5px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 417px;
+}
+
+.contact-sec-left-sec button {
+  background-color: rgb(93, 233, 107);
+  border: transparent;
+  border-radius: 30px;
+  padding: 9px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.contact-sec-right {
+  padding: 20px;
+  width: 300px;
+  background-color: rgb(93, 233, 107);
+  border-radius: 30px;
+}
+
+.contact-sec-righ-first {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  
+}
+.contact-sec-righ-first p{
+  font-size: 12px;
+  width: 212px;
+ 
+}
+.contact-sec-righ-first form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.contact-sec-righ-first form input{
+  background-color: white;
+}
+.contact-sec-righ-first form button{
+  height: 32px;
+  width: 212px;
+  border-radius: 30px;
+  padding: 5px;
+  border: transparent;
+  background-color: #1e4b22;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.contact-number,
+.contact-email,
+.contact-location {
+  background-color: #67eb74;
+  color: white;
+  border-radius: 30px;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-number h5,
+.contact-email h5,
+.contact-location h5 {
+  font-size: 12px;
+}
+
+.contact-number p,
+.contact-email p,
+.contact-location p {
+  font-size: 10px;
+}
+
+.contact-number i,
+.contact-email i,
+.contact-location i {
+  font-size: 25px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.static-map {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 75%;
+  height: auto;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet View */
+@media screen and (max-width: 1024px) {
+  .contact-sec-main {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-sec-left,
+  .contact-sec-right {
+    width: 90%; /* Reduce width for tablet */
+  }
+
+  .contact-details {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-number,
+  .contact-email,
+  .contact-location {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+}
+/* Mobile View */
+@media screen and (max-width: 768px) {
+  .contact-first {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact-sec-main {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .contact-sec-left,
+  .contact-sec-right {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact-details {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-number,
+  .contact-email,
+  .contact-location {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .static-map {
+    max-width: 100%; /* Ensure the map takes full width */
+  }
+}
+
+/* Login css  */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main{
+  background-image: linear-gradient(to top ,#67eb74,#76ed82,#85ef90,#95f19e,#a4f3ac,#b3f5ba,#c2f7c7,#d1f9d5,#e1fbe3,#f0fdf1,#ffffff);
+  height: 90vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  gap: 1rem;
+}
+.content{
+  border:solid 2px #b5c0c5;
+  border-radius: 9px;
+   background-color:rgba(255, 255, 255, 0.4);
+  width:500px;
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: rgb(13, 67, 15);
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center; 
+}
+.input{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+input{
+  width:80%;
+  height: 40%;
+  align-items: center;
+  background-color: transparent;
+  border:solid 2px rgb(59, 93, 107);
+  padding: 4px;
+  border-radius: 4px;
+  
+}
+.input p{
+  color: black;
+  size: 10px;
+}
+button{
+  width: 30%;
+  height: 10%;
+  background-color: rgb(30, 75, 34);
+  color: white;
+  cursor: pointer;
+  border: transparent;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.button{
+  text-decoration: none;
+  color: black;
+  /* display: none; */
+}
+#logout{
+  display: none;
+}

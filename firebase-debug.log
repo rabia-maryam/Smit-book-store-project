@@ -1,0 +1,79 @@
+[debug] [2024-09-28T20:57:48.767Z] ----------------------------------------------------------------------
+[debug] [2024-09-28T20:57:48.773Z] Command:       D:\setups\nodejs\node.exe C:\Users\Ayaan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-09-28T20:57:48.774Z] CLI Version:   13.20.1
+[debug] [2024-09-28T20:57:48.775Z] Platform:      win32
+[debug] [2024-09-28T20:57:48.775Z] Node Version:  v20.17.0
+[debug] [2024-09-28T20:57:48.775Z] Time:          Sat Sep 28 2024 13:57:48 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-09-28T20:57:48.776Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-28T20:57:48.802Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2024-09-28T20:57:49.992Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-09-28T20:57:49.997Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=353177146&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-09-28T21:01:46.405Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2024-09-28T21:01:46.405Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2024-09-28T21:01:52.945Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2024-09-28T21:01:52.946Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as rabiakhanfsd789@gmail.com 
+[debug] [2024-09-28T21:01:58.837Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Ayaan\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-09-28T21:02:30.033Z] ----------------------------------------------------------------------
+[debug] [2024-09-28T21:02:30.037Z] Command:       D:\setups\nodejs\node.exe C:\Users\Ayaan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-28T21:02:30.038Z] CLI Version:   13.20.1
+[debug] [2024-09-28T21:02:30.038Z] Platform:      win32
+[debug] [2024-09-28T21:02:30.038Z] Node Version:  v20.17.0
+[debug] [2024-09-28T21:02:30.038Z] Time:          Sat Sep 28 2024 14:02:30 GMT-0700 (Pacific Daylight Time)
+[debug] [2024-09-28T21:02:30.039Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-28T21:02:30.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-28T21:02:30.050Z] > authorizing via signed-in user (rabiakhanfsd789@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React\first-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-09-28T21:05:03.802Z] Checked if tokens are valid: true, expires at: 1727560911947
+[debug] [2024-09-28T21:05:03.802Z] Checked if tokens are valid: true, expires at: 1727560911947
+[debug] [2024-09-28T21:05:03.805Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-09-28T21:05:05.042Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-09-28T21:05:05.043Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project auth1-a7da9 (auth1) 
+[info] 
+=== Hosting Setup
+[debug] [2024-09-28T21:05:12.229Z] Checked if tokens are valid: true, expires at: 1727560911947
+[debug] [2024-09-28T21:05:12.229Z] Checked if tokens are valid: true, expires at: 1727560911947
+[debug] [2024-09-28T21:05:12.229Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/auth1-a7da9 [none]
+[debug] [2024-09-28T21:05:12.803Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/auth1-a7da9 200
+[debug] [2024-09-28T21:05:12.803Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/auth1-a7da9 {"projectId":"auth1-a7da9","projectNumber":"804695172955","displayName":"auth1","name":"projects/auth1-a7da9","resources":{"hostingSite":"auth1-a7da9"},"state":"ACTIVE","etag":"1_3619aeea-11d8-4ca5-863f-7df6397816c2"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote n/404.html 
+[debug] [2024-09-28T21:05:56.362Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
